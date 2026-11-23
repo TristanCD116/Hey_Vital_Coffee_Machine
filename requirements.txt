@@ -1,0 +1,8 @@
+numpy
+sounddevice
+pyserial
+websocket-client
+requests
+google-auth
+google-auth-oauthlib
+onnxruntime

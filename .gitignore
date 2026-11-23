@@ -1,0 +1,18 @@
+# API keys (read by chat.py and voice.py)
+gemini_key.txt
+elevenlabs_key.txt
+*_key.txt
+.env
+
+# Google OAuth: client secret and saved sign-in tokens (google_data.py)
+client_secret*.json
+token_*.json
+
+# Personal data created at runtime
+vital.db
+tts_cache/
+
+# Python / Pi setup
+venv/
+__pycache__/
+*.pyc
