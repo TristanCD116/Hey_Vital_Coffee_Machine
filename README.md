@@ -6,7 +6,7 @@ Say **“Hey Vital”**, press **Enter**, or place a cup on the sensor to start.
 
 # Achievements
 
-🥇 The project won 1st place in University of Toronto Engineering Kompetition (UTEK), in the Innovation category.
+🥇 The project won 1st place in University of Toronto Engineering Kompetition (UTEK), in the Innovation category.\
 ☕️ The team advanced to Ontario Engineering Competition 2027, representing UofT provincially; where the team will iterate on the project.
 
 ## Photos and videos
