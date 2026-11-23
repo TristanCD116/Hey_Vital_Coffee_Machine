@@ -6,29 +6,25 @@ Say **“Hey Vital”**, press **Enter**, or place a cup on the sensor to start.
 
 ## Photos and videos
 
-Visit the [media folder](media/) for project photos and videos, including the [demo video](media/demo_video_compressed.mp4), which shows Vital in action.
+Visit the [media folder](media/) for project photos and videos, including the [demo video](media/demo_video_compressed.mp4).
 
 ## Setup and commands
 
-**Pi:** `bash setup\_pi.sh`, then `./venv/bin/python vital.py`
-**PC:** `py -m pip install -r requirements.txt`, then `py vital.py`
+- **Raspberry Pi** — Run `bash setup_pi.sh`, then `./venv/bin/python vital.py`.
+- **Windows** — Run `py -m pip install -r requirements.txt`, then `py vital.py`.
 
-Options: `--no-uno` (print values only), `--no-cup` (ignore the cup sensor). Settings are in `config.json`.
+Use `--no-uno` to print values without running the pumps, or `--no-cup` to ignore the cup sensor. Settings are in `config.json`.
 
-|`vital.py`|Main loop, prefetch, the morning sequence|
-|-|-|
-|`dose.py`|Dose formula, limits, caf/decaf split|
-|`chat.py`|Questions, answer parsing, Gemini|
-|`voice.py`|ElevenLabs speech in/out, mic and speaker|
-|`wake.py`|"Hey Vital" wake word (`models/`)|
-|`google\_data.py`|Google Health and Calendar|
-|`uno.py`|Pumps and cup sensor over USB|
+| File | Purpose |
+| --- | --- |
+| `vital.py` | Main loop, prefetch, and morning sequence |
+| `dose.py` | Dose formula, limits, and caffeinated/decaf split |
+| `chat.py` | Questions, answer parsing, and Gemini |
+| `voice.py` | ElevenLabs speech input and output, microphone, and speaker |
+| `wake.py` | “Hey Vital” wake word detection using `models/` |
+| `google_data.py` | Google Health and Calendar |
+| `uno.py` | Pumps and cup sensor over USB |
 
-models/melspectrogram.onnx and models/embedding\_model.onnx are from openWakeWord
+## Model attribution
 
-by David Scripka (https://github.com/dscripka/openWakeWord), release v0.5.1,
-
-licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-They are included unmodified.
-
+`models/melspectrogram.onnx` and `models/embedding_model.onnx` are included unmodified from release v0.5.1 of [openWakeWord](https://github.com/dscripka/openWakeWord) by David Scripka. They are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
