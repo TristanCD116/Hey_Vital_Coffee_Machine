@@ -8,6 +8,8 @@ Say **“Hey Vital”**, press **Enter**, or place a cup on the sensor to start.
 
 Visit the [media folder](media/) for project photos and videos, including the [demo video](media/demo_video_compressed.mp4), which shows Vital in action.
 
+## Setup and commands
+
 **Pi:** `bash setup\_pi.sh`, then `./venv/bin/python vital.py`
 **PC:** `py -m pip install -r requirements.txt`, then `py vital.py`
 
