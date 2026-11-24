@@ -14,7 +14,7 @@ Say **“Hey Vital”**, press **Enter**, or place a cup on the sensor to start.
 Visit the [media folder](media/) for project photos and videos, including the [demo video](media/demo_video_compressed.mp4).
 
 ## Documents and Visuals from UTEK
-Visit the [documents folder](Docs/) for the team's winning poster, presentation, and design documentation. Most of the information is summarized in [poster](Docs/Hey_Vital_UTEK_Poster.pdf)
+Visit the [documents folder](docs/) for the team's winning poster, presentation, and design documentation. Most of the information is summarized in [poster](docs/Hey_Vital_UTEK_Poster.pdf)
 
 ## Setup and commands
 
