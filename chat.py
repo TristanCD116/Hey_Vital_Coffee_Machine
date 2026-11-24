@@ -1,4 +1,4 @@
-# The conversation: briefing, questions and answers; Gemini words the briefing and reads odd answers, never the dose.
+# The conversation: briefing, questions and answers; Gemini words the briefing and reads odd answers
 import json
 import os
 import re
